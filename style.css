@@ -1,0 +1,1065 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #e5e5e5;
+}
+/* header banner and nav area css */
+
+header {
+  width: 100%;
+  background-image: url("banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.nav-list {
+  display: flex;
+  margin: 85px 121px;
+  align-items: center;
+  gap: 46px;
+  color: white;
+}
+.logo {
+  margin: 85px 121px;
+}
+.banner-pic {
+  margin-right: 80px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-pic img {
+  width: 646.22px;
+  height: 514px;
+}
+.banner-text {
+  margin-left: 70px;
+  color: white;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.banner-text h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+.banner-text p {
+  font-size: 18px;
+  line-height: 39px;
+  margin-top: 30px;
+}
+.banner-text button {
+  margin-top: 30px;
+  background: #ef7f3c;
+  border-radius: 10px;
+  width: 230px;
+  height: 70px;
+  color: white;
+  border: none;
+  font-size: 16px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.banner-text button:hover {
+  background-color: #ca6a32;
+  color: rgb(199, 198, 198);
+
+  transition: all 0.2s;
+}
+
+/* header banner and nav area css END */
+/* service start */
+.service-h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.services {
+  display: flex;
+  margin: 51px 121px;
+
+  gap: 20px;
+}
+.service {
+  text-align: center;
+  background-color: #ffffff;
+  width: 386px;
+  height: 360px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  padding-bottom: 30px;
+  padding-top: 59px;
+  border-radius: 20px;
+}
+.service img {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.service h3 {
+  margin-bottom: 10px;
+}
+.service p {
+  margin-bottom: 50px;
+  line-height: 35px;
+}
+.service h5 {
+  margin-bottom: 20px;
+}
+/* service end */
+/* companies */
+.companies {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 31px 120px;
+
+  gap: 20px;
+}
+.companies div img {
+  width: 100%;
+}
+.companies div {
+  text-align: center;
+  padding: 20px 58px;
+  background-color: white;
+  border-radius: 10px;
+}
+/* companies end */
+/* managing area */
+.managing-website {
+  margin-top: 61px;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("banner.jpg");
+  padding-top: 61px;
+  padding-bottom: 59px;
+}
+.managing-website h1 {
+  color: white;
+}
+.managing-website .text-managing {
+  color: white;
+  margin-top: 29px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.managing-box-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0px 121px;
+  margin-top: 50px;
+}
+.managing-box {
+  width: 386px;
+  height: 366px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.managing-box img {
+  margin-bottom: 18px;
+  margin-top: 50px;
+}
+.managing-box h3 {
+  margin-bottom: 19px;
+}
+.managing-box p {
+  margin-bottom: 50px;
+  line-height: 35px;
+}
+
+/* managing area End */
+
+/* Hostingor From Another World */
+
+.managing-web {
+  text-align: center;
+  margin-top: 61px;
+}
+
+.managing-web h4 {
+  margin-bottom: 24px;
+}
+.managing-web h1 {
+  margin-bottom: 20px;
+}
+.managing-web p {
+  margin-bottom: 17px;
+  line-height: 30px;
+}
+.hoisting-pics {
+  width: 933px;
+  height: 528px;
+  margin: auto;
+}
+
+.check-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 69px;
+}
+.check-point ul li {
+  display: flex;
+  margin-top: 32px;
+  gap: 10px;
+  align-items: center;
+}
+/* hoisitng area end */
+/* rocekt area */
+.onlick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 68px;
+}
+.onlick-section {
+  background-image: url("wave-bgs.png"), url("banner.jpg");
+  background-position: center, center;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  margin-top: 60px;
+  padding-top: 70px;
+  padding-bottom: 73px;
+  color: white;
+}
+.pic-rocket {
+  margin-left: 283px;
+}
+
+.text-onclick {
+  margin-right: 330px;
+}
+.text-onclick h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.text-onclick p {
+  line-height: 30px;
+}
+
+/* leve up */
+.level-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 63px;
+}
+.level-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.level-text {
+  margin-left: 180px;
+}
+.level-up-box-area {
+  margin-right: 110px;
+  display: flex;
+  gap: 42px;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.level-up-box {
+  width: 494px;
+  height: 151px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+  position: relative;
+}
+.level-up-box p {
+  line-height: 25px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.bottom-level-up-box {
+  position: absolute;
+  left: 205px;
+  right: 300px;
+  top: 4010px;
+}
+/* leve up End */
+/* shared hoisting */
+.shared-hoisting {
+  background-image: url("wave.png"), url("banner.jpg");
+  margin-top: 80px;
+  background-position: center, center;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  text-align: center;
+  padding-top: 59px;
+  padding-bottom: 121px;
+}
+.shared-h1 {
+  color: white;
+  font-size: 32px;
+}
+.package {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.package-box {
+  width: 386px;
+  height: 366px;
+  background-color: white;
+  border-radius: 20px;
+  color: #0d2476;
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+#package-box2 {
+  height: 416px;
+  background-color: #ef7f3c;
+  color: white;
+}
+
+.package-box h3 {
+  margin-top: 40px;
+}
+.package-box p {
+  margin-top: 7px;
+}
+
+.package-box h1 {
+  margin-top: 66px;
+  font-size: 32px;
+}
+.package-box button {
+  margin-top: 61px;
+  width: 187px;
+  height: 50px;
+  border: 2px solid #0d2476;
+  color: #0d2476;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: 700;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.package-box button:hover {
+  transition: all 0.2s;
+  background-color: rgb(217, 217, 217);
+}
+#package-box2 h1 {
+  margin-top: 91px;
+  font-size: 32px;
+}
+#package-box2 button {
+  margin-top: 86px;
+  border: none;
+  font-weight: 700;
+}
+/* shared hoisting end */
+/* faq question */
+.faq-h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.faq-ques-list {
+  margin-top: 50px;
+  margin-left: 465px;
+  margin-right: 465px;
+  font-size: 20px;
+}
+.faq-ques-list li {
+  margin-top: 51px;
+  text-align: left;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* faq question END */
+/* money back  */
+.money-back {
+  background-color: #f2f5ff;
+  padding-top: 29px;
+  padding-bottom: 30px;
+  margin-top: 60px;
+}
+.money-back .money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 83px;
+}
+.batch-img {
+  margin-left: 343px;
+}
+.money-back-text {
+  margin-right: 145px;
+}
+.money-back-text h1 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.money-back-text p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.money-back-text button {
+  background-color: #ef7f3c;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  width: 187px;
+  height: 50px;
+  padding: 15px 50px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.money-back-text button:hover {
+  transition: all 0.2s;
+  background-color: #ca6a32;
+  color: rgb(199, 198, 198);
+}
+/* money back end  */
+/* payment area  */
+.payment-text {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.brands {
+  margin: 0 197px;
+  margin-top: 40px;
+}
+/* payment area  end */
+/* footer */
+footer {
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(270deg, #2a76f6 0%, #1243aa 100%);
+}
+.footer-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+  align-items: center;
+}
+.text-footer {
+  margin-left: 420px;
+  color: white;
+  line-height: 52px;
+}
+.button-footer {
+  margin-right: 372px;
+}
+.button-footer button {
+  width: 187px;
+  height: 50px;
+  background-color: #ef7f3c;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.button-footer button:hover {
+  transition: all 0.2s;
+  background-color: #ca6a32;
+  color: rgb(199, 198, 198);
+}
+/* footer end */
+
+/*--------------------- Media querry Starts--------------------  */
+
+@media screen and (max-width: 576px) {
+  /* nav, header and banner area */
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin: 10px 0px;
+  }
+  .nav-list {
+    margin: 0px 0px;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .banner-pic {
+    margin-right: 0;
+    margin-top: 16px;
+  }
+  .banner-pic img {
+    width: 100%;
+    height: 100%;
+  }
+  /* nav, header and banner area end */
+  /* services */
+  .services {
+    margin: 20px 0px;
+    flex-direction: column;
+  }
+  .service{
+    width: fit-content;
+  }
+
+  .companies {
+  
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px 100px;
+ 
+  }
+ /* services  end*/
+ /* managing website */
+
+ .managing-box-area{
+    flex-direction: column;
+    margin: 50px 0px;
+    width: 100%;
+ }
+ .managing-box{
+    width: fit-content;
+ }
+  /* managing website end*/
+  /*  hoisitng  */
+  .hoisting-pic img{
+    width: 100%;
+  }
+   /*  hoisitng  end */
+   /* onclick */
+   .pic-rocket{
+    margin: 0px 0px;
+   }
+   .onlick{
+    flex-direction: column;
+   }
+   .text-onclick{
+    text-align: center;
+    margin: 0px 0px;
+   }
+   .text-onclick h1 {
+   text-align: center;
+  }
+     /* onclick end */
+     /* level up */
+     .level-up{
+        flex-direction: column;
+     }
+     .level-text{
+        margin: 0px 0px;
+text-align: center;
+     }
+     .level-up-box-area{
+        margin: 0px 0px;
+     }
+     .level-up-box{
+        width: fit-content;
+        flex-direction: column;
+     }
+     .level-up-box{
+        width: fit-content;
+        height: 300px;
+     }
+     
+        .bottom-level-up-box {
+            position: static;
+           
+          }
+ /* level up end */
+
+ /* shared hoisting */
+ .package{
+    flex-direction: column;
+    gap: 50px;
+ }
+ .package-box{
+    width: 96%;
+ }
+ /* shared hoisting end */
+
+ /* FAQ */
+ .faq-ques-list{
+    margin: 0px 0px;
+
+ }
+
+  /* FAQ END*/
+  /* batch area */
+.money{
+    flex-direction: column;
+}
+.batch-img{
+    margin: 0px 0px ;
+}
+.money-back-text{
+    margin: 0px 0px ;  
+    text-align: center;
+}
+  /* batch area end */
+  /* payment */
+  .brands{
+    margin: 20px 0px ;
+    
+  }
+  .brands img{
+    width: 100%;
+  }
+  
+  
+    /* paymentend */
+    /* footer */
+    
+    .footer-area{
+        flex-direction: column;
+    }
+    .text-footer{
+        margin: 0px 0px;
+        text-align: center;
+    }
+    .button-footer{
+        margin: 0px 0px; 
+    }
+   
+}
+
+
+
+@media screen and (min-width: 577px)and (max-width:768px) {
+    /* nav, header and banner area */
+    nav {
+      flex-direction: column;
+    }
+    .logo {
+      margin: 10px 0px;
+    }
+    .nav-list {
+      margin: 0px 0px;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .banner {
+      flex-direction: column;
+    }
+    .banner-text {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .banner-pic {
+      margin-right: 0;
+      margin-top: 16px;
+    }
+    .banner-pic img {
+      width: 100%;
+      height: 100%;
+    }
+    /* nav, header and banner area end */
+    /* services */
+    .services {
+      margin: 20px 0px;
+      flex-direction: column;
+    }
+    .service{
+      width: fit-content;
+    }
+  
+    .companies {
+    
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0px 100px;
+   
+    }
+   /* services  end*/
+   /* managing website */
+  
+   .managing-box-area{
+      flex-direction: column;
+      margin: 50px 0px;
+      width: 100%;
+   }
+   .managing-box{
+      width: fit-content;
+   }
+    /* managing website end*/
+    /*  hoisitng  */
+    .hoisting-pic img{
+      width: 100%;
+    }
+     /*  hoisitng  end */
+     /* onclick */
+     .pic-rocket{
+      margin: 0px 0px;
+     }
+     .onlick{
+      flex-direction: column;
+     }
+     .text-onclick{
+      text-align: center;
+      margin: 0px 0px;
+     }
+     .text-onclick h1 {
+     text-align: center;
+    }
+       /* onclick end */
+       /* level up */
+       .level-up{
+          flex-direction: column;
+       }
+       .level-text{
+          margin: 0px 0px;
+  text-align: center;
+       }
+       .level-up-box-area{
+          margin: 0px 0px;
+       }
+       .level-up-box{
+          width: fit-content;
+          flex-direction: column;
+       }
+       .level-up-box{
+          width: fit-content;
+          height: 300px;
+       }
+       
+          .bottom-level-up-box {
+              position: static;
+             
+            }
+   /* level up end */
+  
+   /* shared hoisting */
+   .package{
+      flex-direction: column;
+      gap: 50px;
+   }
+   .package-box{
+      width: 96%;
+   }
+   /* shared hoisting end */
+  
+   /* FAQ */
+   .faq-ques-list{
+      margin: 0px 0px;
+  
+   }
+  
+    /* FAQ END*/
+    /* batch area */
+  .money{
+      flex-direction: column;
+  }
+  .batch-img{
+      margin: 0px 0px ;
+  }
+  .money-back-text{
+      margin: 0px 0px ;  
+      text-align: center;
+  }
+    /* batch area end */
+    /* payment */
+    .brands{
+      margin: 20px 0px ;
+      
+    }
+    .brands img{
+      width: 100%;
+    }
+    
+    
+      /* paymentend */
+      /* footer */
+      
+      .footer-area{
+          flex-direction: column;
+      }
+      .text-footer{
+          margin: 0px 0px;
+          text-align: center;
+      }
+      .button-footer{
+          margin: 0px 0px; 
+      }
+     /* footerend */
+  }
+  
+
+
+  @media screen and (min-width:769px)and (max-width:992px) {
+    /* nav, header and banner area */
+    nav {
+      flex-direction: column;
+    }
+    .logo {
+      margin: 10px 0px;
+    }
+    .nav-list {
+      margin: 0px 0px;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .banner {
+      flex-direction: column;
+    }
+    .banner-text {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .banner-pic {
+      margin-right: 0;
+      margin-top: 16px;
+    }
+    .banner-pic img {
+      width: 100%;
+      height: 100%;
+    }
+    /* nav, header and banner area end */
+    /* services */
+    .services {
+      margin: 20px 0px;
+      flex-direction: column;
+    }
+    .service{
+      width: fit-content;
+    }
+  
+    .companies {
+    
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0px 100px;
+   
+    }
+   /* services  end*/
+   /* managing website */
+  
+   .managing-box-area{
+      flex-direction: column;
+      margin: 50px 0px;
+      width: 100%;
+   }
+   .managing-box{
+      width: fit-content;
+   }
+    /* managing website end*/
+    /*  hoisitng  */
+    .hoisting-pic img{
+      width: 100%;
+    }
+     /*  hoisitng  end */
+     /* onclick */
+     .pic-rocket{
+      margin: 0px 0px;
+     }
+     .onlick{
+      flex-direction: column;
+     }
+     .text-onclick{
+      text-align: center;
+      margin: 0px 0px;
+     }
+     .text-onclick h1 {
+     text-align: center;
+    }
+       /* onclick end */
+       /* level up */
+       .level-up{
+          flex-direction: column;
+       }
+       .level-text{
+          margin: 0px 0px;
+  text-align: center;
+       }
+       .level-up-box-area{
+          margin: 0px 0px;
+       }
+       .level-up-box{
+          width: fit-content;
+          flex-direction: column;
+       }
+       .level-up-box{
+          width: fit-content;
+          height: 300px;
+       }
+       
+          .bottom-level-up-box {
+              position: static;
+             
+            }
+   /* level up end */
+  
+   /* shared hoisting */
+   .package{
+      flex-direction: column;
+      gap: 50px;
+   }
+   .package-box{
+      width: 96%;
+   }
+   /* shared hoisting end */
+  
+   /* FAQ */
+   .faq-ques-list{
+      margin: 0px 0px;
+  
+   }
+  
+    /* FAQ END*/
+    /* batch area */
+  .money{
+      flex-direction: column;
+  }
+  .batch-img{
+      margin: 0px 0px ;
+  }
+  .money-back-text{
+      margin: 0px 0px ;  
+      text-align: center;
+  }
+    /* batch area end */
+    /* payment */
+    .brands{
+      margin: 20px 0px ;
+      
+    }
+    .brands img{
+      width: 100%;
+    }
+    
+    
+      /* paymentend */
+      /* footer */
+      
+      .footer-area{
+          flex-direction: column;
+      }
+      .text-footer{
+          margin: 0px 0px;
+          text-align: center;
+      }
+      .button-footer{
+          margin: 0px 0px; 
+      }
+     /* footerend */
+  }
+  
